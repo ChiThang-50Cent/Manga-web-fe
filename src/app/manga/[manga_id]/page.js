@@ -1,8 +1,9 @@
 import React from "react";
-import Manga_Header from "../components/manga_header";
-import Chapter_Item from "../components/chapter_item";
+import Manga_Header from "../../components/manga_header";
+import Chapter_Item from "../../components/chapter_item";
 
-export default function Manga() {
+export default function Manga({params}) {
+  
   const props = {
     ava_url:
       "https://storage-ct.lrclib.net/file/cuutruyen/uploads/manga/702/cover/processed-9d7feb625606303b172fa88bf4674b7e.jpg",

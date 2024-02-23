@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Chapter_Header({manga_name, chapter_order, chapter_name}) {
   return (
-    <div className="w-full max-w-screen-sm mx-auto px-2 py-4">
+    <div className="w-full max-w-screen-sm mx-auto px-2 py-4 mb-12">
       <div className="flex justify-between mb-4">
         <Link
           href="/"
@@ -45,7 +45,7 @@ export default function Chapter_Header({manga_name, chapter_order, chapter_name}
         <div>
           <Link
             href="/"
-            className="flex justify-center items-center button bg-gray-800 hover:bg-gray-700 text-gray-100 px-3 py-2 text-sm uppercase font-bold rounded-md"
+            className="flex justify-center items-center button bg-neutral-800 hover:bg-neutral-600 text-gray-100 px-3 py-2 text-sm uppercase font-bold rounded-md"
           >
             Chương trước
           </Link>
